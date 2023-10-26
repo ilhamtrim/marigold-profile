@@ -1,3 +1,7 @@
+body {
+    font-family: 'poppins',sans-serif;
+}
+
 section {
     padding-top: 4rem;
 }
@@ -126,6 +130,15 @@ margin-bottom: 10rem;
 
 /* About */
 
+.page-section {
+    color: #C07F00;
+}
+
+.section-heading {
+    padding-bottom: 4rem;
+    font-size: 2rem;
+}
+
 .timeline {
     position: relative;
     padding: 0;
@@ -183,7 +196,7 @@ margin-bottom: 10rem;
     color: white;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #ffc800;
+    background-color: #C07F00;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 10px;
@@ -221,6 +234,7 @@ margin-bottom: 10rem;
   .timeline .timeline-body > p {
     margin-bottom: 0;
   }
+
 
   @media (min-width: 768px) {
     .timeline:before {
@@ -293,6 +307,8 @@ margin-bottom: 10rem;
       padding: 0 100px 20px 20px;
     }
   }
+
+  /* Team */
   .team-member {
     margin-bottom: 3rem;
     text-align: center;
