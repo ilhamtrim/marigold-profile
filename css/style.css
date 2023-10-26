@@ -76,3 +76,46 @@ margin-bottom: 10rem;
 .carousel-caption .caption-2 {
     color: #fff;
 }
+
+/* Services */
+
+.services {
+    padding-top: 4rem;
+}
+
+.services h2 {
+    font-size: 2rem;
+    color: #C07F00;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.card {
+    border-radius: 20px;
+    margin-top: 2rem;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #C07F00;
+    font-weight: 700;
+}
+.card-text {
+    color: #714b00;
+}
+
+.card a {
+    color: #fff;
+    font-weight: 700;
+    background-color: #C07F00;
+}
+.card a {
+    color: #fff;
+    font-weight: 700;
+    background-color: #C07F00;
+}
+.card a:hover {
+    color: #fff;
+    font-weight: 700;
+    background-color: #916000;
+}
