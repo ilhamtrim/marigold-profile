@@ -1,0 +1,78 @@
+/* Navbar */
+.navbar {
+    background-color: #fffae891;
+    backdrop-filter: blur(4px);
+    
+}
+
+.navbar a {
+    color: #C07F00;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    font-weight: 700;
+    color: #C07F00;
+}
+
+.navbar-brand {
+    color: #C07F00;
+    font-family: 'tangerine', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+/* Carousel Hero */
+.c-item {
+    height: 730px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+margin-bottom: 10rem;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+.carousel-caption a {
+    background-color: #d89000;
+    color: #fff;
+    font-weight: 500;
+    }
+
+.carousel-caption a:hover {
+    background-color: #C07F00;
+    color: #fff;
+   
+}
+
+.carousel-caption .caption-1 {
+    text-shadow: 2px 2px 10px #392600;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.carousel-caption .caption-2 {
+    text-shadow: 2px 2px 10px #392600;
+    color: #ffefd0;
+    font-weight: 700;
+}
+
+.carousel-caption h2 {
+    text-shadow: 2px 2px 10px #392600;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.carousel-caption .caption-2 {
+    color: #fff;
+}
