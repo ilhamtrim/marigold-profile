@@ -1,6 +1,5 @@
 body {
     font-family: 'poppins',sans-serif;
-    height: 4000px;
 }
 
 section {
@@ -152,6 +151,7 @@ margin-bottom: 10rem;
 
 .page-section {
     color: #C07F00;
+  margin-top: 1rem;
 }
 
 .section-heading {
@@ -370,4 +370,16 @@ margin-bottom: 10rem;
     color: #C07F00;
     font-size: 30px;
     padding-left: 1rem;
+  }
+
+  /* ======= Footer ======== */
+  
+  footer a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  footer {
+    background-color: #C07F00;
+
   }
