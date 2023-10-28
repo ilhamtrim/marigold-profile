@@ -1,5 +1,6 @@
 body {
     font-family: 'poppins',sans-serif;
+    height: 4000px;
 }
 
 section {
@@ -17,13 +18,16 @@ section {
     color: #C07F00;
 }
 
+.navbar a:hover {
+    color: #ffaa00;
+}
+
 .navbar .navbar-nav .nav-link.active {
     font-weight: 700;
     color: #C07F00;
 }
 
 .navbar-brand {
-    color: #C07F00;
     font-family: 'tangerine', cursive;
     font-size: 2rem;
     font-weight: 700;
@@ -31,6 +35,7 @@ section {
     display: flex;
     align-items: center;
 }
+
 /* Carousel Hero */
 .c-item {
     height: 730px;
@@ -306,6 +311,19 @@ margin-bottom: 10rem;
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px;
     }
+  }
+
+  /* Gallery */
+  .gallery h2 {
+    color: #C07F00;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .gallery p {
+    color: #C07F00;
+    font-size: 1rem;
+    font-weight: 500;
   }
 
   /* Team */
