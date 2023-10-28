@@ -103,6 +103,10 @@ margin-bottom: 10rem;
     padding-bottom: 2rem;
 }
 
+.card-img-top {
+  width: 200px;
+}
+
 .card {
     border-radius: 20px;
     margin-top: 2rem;
@@ -117,20 +121,31 @@ margin-bottom: 10rem;
     color: #714b00;
 }
 
-.card a {
+.services .card .btn {
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     background-color: #C07F00;
 }
-.card a {
-    color: #fff;
-    font-weight: 700;
-    background-color: #C07F00;
-}
-.card a:hover {
+
+.card .btn:hover {
     color: #fff;
     font-weight: 700;
     background-color: #916000;
+}
+
+.card .sosmed {
+  color: #C07F00;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.card .sosmed:hover {
+  color: #C07F00;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 /* About */
@@ -327,6 +342,16 @@ margin-bottom: 10rem;
   }
 
   /* Team */
+  .team h2 {
+    color: #C07F00;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .team h3 {
+    padding-bottom: 2rem;
+  }
+
   .team-member {
     margin-bottom: 3rem;
     text-align: center;
@@ -339,4 +364,10 @@ margin-bottom: 10rem;
   .team-member h4, .team-member .h4 {
     margin-top: 1.5rem;
     margin-bottom: 0;
+  }
+
+  .team-member a {
+    color: #C07F00;
+    font-size: 30px;
+    padding-left: 1rem;
   }
